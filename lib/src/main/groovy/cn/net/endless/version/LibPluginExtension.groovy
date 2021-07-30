@@ -29,7 +29,7 @@ public class LibPluginExtension {
 
     void ktxCore() {
         BasePlugin.mProject.dependencies {
-            implementation "androidx.core:core-ktx:${ktxCoreVersion}"
+            implementation "androidx.core:core-ktx:1.6.0"
         }
     }
     //扩展程序包含在Android 的节省内存的集合库中使用的实用函数
