@@ -1,6 +1,8 @@
 plugins {
     id 'groovy'
+    id 'com.github.dcendents.android-maven'
 }
+group='com.github.hsy1992'
 
 sourceSets {
     main {
