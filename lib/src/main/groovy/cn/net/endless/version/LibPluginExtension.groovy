@@ -1,4 +1,4 @@
-package cn.net.endless.buildsrc
+package cn.net.endless.version
 
 public class LibPluginExtension {
 

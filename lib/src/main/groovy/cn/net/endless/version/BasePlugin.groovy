@@ -1,4 +1,4 @@
-package cn.net.endless.buildsrc
+package cn.net.endless.version
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

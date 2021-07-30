@@ -1,8 +1,10 @@
-plugins {
-    id 'groovy'
-    id 'com.github.dcendents.android-maven'
-}
+apply plugin: 'groovy'
+apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.hsy1992'
+
+repositories {
+    mavenCentral()
+}
 
 sourceSets {
     main {

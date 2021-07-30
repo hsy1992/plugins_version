@@ -1,26 +1,21 @@
-plugins {
-    id 'groovy'
-}
+apply plugin: 'com.android.application'
 
-sourceSets {
-    main {
-        groovy {
-            srcDir 'src/main/groovy'
-        }
-
-        java {
-            srcDir 'src/main/java'
-        }
-
-        resources {
-            srcDir 'src/main/resources'
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "cn.net.endless.plugins"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
-    //gradle sdk
-    implementation gradleApi()
-    //groovy sdk
-    implementation localGroovy()
 }
